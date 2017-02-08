@@ -17,8 +17,16 @@ hr{
 }
 
 .logo{
-	height: 150px;
+	width: 50%;
+}
 
+.name_desig{
+	width: 100%;
+}
+
+.head{
+	display: block;
+	flex-wrap: initial;
 }
 
 h1,h4,h2{
@@ -34,3 +42,9 @@ h3{
 	font-family: 'Muli';
 	color: #7d97ad;
 }
+
+@media screen and (max-width:450px){
+	.head{
+		display:flex;
+		flex-wrap: wrap;
+	}
